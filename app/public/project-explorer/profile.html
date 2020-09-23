@@ -30,28 +30,38 @@
             <label for="password">Password: </label>
             <input type="password" id="password">
 
-            <label for="matric">Matric Number: </label>
-            <input type="text" id="matric">
+            <label for="matricNumber">Matric Number: </label>
+            <input type="text" id="matricNumber">
 
             <label for="program">Program: </label>
-            <input type="" id="program">
-            
-            <label for="gradyear">Graduation Year: </label>
-            <input type="year" id="gradyear">
+            <select name="program" id="program">
+                <option value="computer_science">Computer Science</option>
+                <option value="computer_technology">Computer Technology</option>
+                <option value="computer_information_science">Computer Infornation Science</option>
+            </select>
+
+            <label for="graduationYear">Graduation: </label>
+            <select name="graduationYear" id="graduationYear">
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
 
             <input type ="submit"/>
         
         </form>
         <h3>Change Password</h3>
         <form>
-            <label for="cpassword">Current Password: </label>
-            <input type="password" id="cpassword">
+            <label for="currentpassword">Current Password: </label>
+            <input type="password" id="currentpassword">
             
-            <label for="npassword">New Password: </label>
-            <input type="password" id="npassword">
+            <label for="newpassword">New Password: </label>
+            <input type="password" id="newPassword">
 
-            <label for="conpassword"> Confirm Password: </label>
-            <input type="password" id="conpassword">
+            <label for="confirmpassword"> Confirm Password: </label>
+            <input type="password" id="confirmpassword">
+
 
             <input type ="submit"/>
         </form>
