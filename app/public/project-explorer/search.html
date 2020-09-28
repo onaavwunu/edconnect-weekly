@@ -7,24 +7,28 @@
     <body>
         <h1>Project Explorer</h1>
         <h2>One Stop Database for Final Year Projects</h2>
-        <a href="index.html">Home</a> <a href="search.html">Projects</a> <a href="createProject.html">Submit</a> <a href="login.html">Login</a> <a href="register.html">Register</a>
+        <nav>
+        <a href="index.html">Home</a> 
+        <a href="search.html">Projects</a> 
+        <a href="createProject.html">Submit</a> 
+        <a href="login.html">Login</a>
+         <a href="register.html">Register</a>
+        </nav>
         <h3>Search Project By</h3>
 
         <form>
-            Project Title:<br>
-            <input type="text">
-            <br><br>
-            Project Abstract:<br>
-            <input type="text">
-            <br><br>
-            Authors:<br>
-            <input type="email">
-            <br><br>
-            Tags:<br>
-            <input type="text">
-            <br><br>
-            <input type="submit" value="Search">
-        </form>
+
+        <label for="searchTerm">Project Name, Author, Abstract, Tags </label>
+        <input type="text" name="searchTerm">
+
+        <label for="authorName">Name: </label>
+            <select name="authorName">
+                <option value="Ade Bolade">Ade Bolade</option>
+                <option value="Brian Teleo">Brian Teleo</option>
+                <option value="James Correy">James Correy</option>
+            </select>
+        <input type="button" value ="Search">
+    </form>
         <h3>Search Results</h3>
 
         <h4>Project 4</h4>
